@@ -29,6 +29,7 @@ function App() {
     console.log(select_value_position_7);
 
   }
+
   
   return (
     <div>
@@ -39,6 +40,15 @@ function App() {
       <div className="rectangle">
         <div className="rectangle-up">
           Brasil
+        </div>
+        <div className="inputs">
+          <input type="text" /> 
+          <input type="text" /> 
+          <input type="text" /> 
+          <input type="text" /> 
+          <input type="text" /> 
+          <input type="text" /> 
+          <input type="text" /> 
         </div>
       </div>
     </div>
