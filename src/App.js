@@ -4,21 +4,21 @@ import './App.css';
 function App() {
 
   const handleRandom = () => {
-    var letters_position_1 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-    var letters_position_2 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-    var letters_position_3 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-    var numbers_position_4 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-    var numbers_position_5 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-    var letters_position_6 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-    var numbers_position_7 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let letters_position_1 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    let letters_position_2 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    let letters_position_3 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    let numbers_position_4 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let letters_position_5 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    let numbers_position_6 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let numbers_position_7 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-    var select_value_position_1 = letters_position_1[Math.floor(Math.random() * letters_position_1.length)];  
-    var select_value_position_2 = letters_position_2[Math.floor(Math.random() * letters_position_2.length)];  
-    var select_value_position_3 = letters_position_3[Math.floor(Math.random() * letters_position_3.length)];  
-    var select_value_position_4 = numbers_position_4[Math.floor(Math.random() * numbers_position_4.length)];  
-    var select_value_position_5 = numbers_position_5[Math.floor(Math.random() * numbers_position_5.length)];  
-    var select_value_position_6 = letters_position_6[Math.floor(Math.random() * letters_position_6.length)];  
-    var select_value_position_7 = numbers_position_7[Math.floor(Math.random() * numbers_position_7.length)]; 
+    let select_value_position_1 = letters_position_1[Math.floor(Math.random() * letters_position_1.length)];  
+    let select_value_position_2 = letters_position_2[Math.floor(Math.random() * letters_position_2.length)];  
+    let select_value_position_3 = letters_position_3[Math.floor(Math.random() * letters_position_3.length)];  
+    let select_value_position_4 = numbers_position_4[Math.floor(Math.random() * numbers_position_4.length)];  
+    let select_value_position_5 = letters_position_5[Math.floor(Math.random() * letters_position_5.length)];  
+    let select_value_position_6 = numbers_position_6[Math.floor(Math.random() * numbers_position_6.length)];  
+    let select_value_position_7 = numbers_position_7[Math.floor(Math.random() * numbers_position_7.length)]; 
     
     console.log(select_value_position_1);
     console.log(select_value_position_2);
@@ -27,7 +27,7 @@ function App() {
     console.log(select_value_position_5);
     console.log(select_value_position_6);
     console.log(select_value_position_7);
-
+    console.log(select_value_position_1+select_value_position_2+select_value_position_3+select_value_position_4+select_value_position_5+select_value_position_6+select_value_position_7)
   }
 
   
