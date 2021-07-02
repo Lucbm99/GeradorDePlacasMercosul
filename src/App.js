@@ -42,13 +42,13 @@ function App() {
       <div className="rectangle">
         <RectangleUp />
         <div className="inputs">
-          <input type="text" id="value-1" value="" /> 
-          <input type="text" id="value-2" value="" /> 
-          <input type="text" id="value-3" value="" /> 
-          <input type="text" id="value-4" value="" /> 
-          <input type="text" id="value-5" value="" /> 
-          <input type="text" id="value-6" value="" /> 
-          <input type="text" id="value-7" value="" /> 
+          <input type="text" id="value-1" readOnly /> 
+          <input type="text" id="value-2" readOnly /> 
+          <input type="text" id="value-3" readOnly /> 
+          <input type="text" id="value-4" readOnly /> 
+          <input type="text" id="value-5" readOnly /> 
+          <input type="text" id="value-6" readOnly /> 
+          <input type="text" id="value-7" readOnly /> 
         </div>
       </div>
     </div>
