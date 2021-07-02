@@ -1,0 +1,12 @@
+.instructions {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.5rem;
+    color: #fff
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .instructions {
+        font-size: 1.2rem;
+    }
+}

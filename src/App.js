@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import RectangleUp  from './components/RectangleUp';
+import Instructions from './components/Instructions';
 
 function App() {
 
@@ -19,36 +21,34 @@ function App() {
     let select_value_position_5 = letters_position_5[Math.floor(Math.random() * letters_position_5.length)];  
     let select_value_position_6 = numbers_position_6[Math.floor(Math.random() * numbers_position_6.length)];  
     let select_value_position_7 = numbers_position_7[Math.floor(Math.random() * numbers_position_7.length)]; 
+
+    document.getElementById("value-1").value = select_value_position_1;
+    document.getElementById("value-2").value = select_value_position_2;
+    document.getElementById("value-3").value = select_value_position_3;
+    document.getElementById("value-4").value = select_value_position_4;
+    document.getElementById("value-5").value = select_value_position_5;
+    document.getElementById("value-6").value = select_value_position_6;
+    document.getElementById("value-7").value = select_value_position_7;
     
-    console.log(select_value_position_1);
-    console.log(select_value_position_2);
-    console.log(select_value_position_3);
-    console.log(select_value_position_4);
-    console.log(select_value_position_5);
-    console.log(select_value_position_6);
-    console.log(select_value_position_7);
-    console.log(select_value_position_1+select_value_position_2+select_value_position_3+select_value_position_4+select_value_position_5+select_value_position_6+select_value_position_7)
   }
 
   
   return (
     <div>
-      <h3 className="instructions">Clique no botão abaixo para gerar uma numeração aleatória de placa:</h3>
+      <Instructions />
       <div className="generate">
         <button onClick={handleRandom}>Gerar</button>
       </div>
       <div className="rectangle">
-        <div className="rectangle-up">
-          Brasil
-        </div>
+        <RectangleUp />
         <div className="inputs">
-          <input type="text" /> 
-          <input type="text" /> 
-          <input type="text" /> 
-          <input type="text" /> 
-          <input type="text" /> 
-          <input type="text" /> 
-          <input type="text" /> 
+          <input type="text" id="value-1" value="" /> 
+          <input type="text" id="value-2" value="" /> 
+          <input type="text" id="value-3" value="" /> 
+          <input type="text" id="value-4" value="" /> 
+          <input type="text" id="value-5" value="" /> 
+          <input type="text" id="value-6" value="" /> 
+          <input type="text" id="value-7" value="" /> 
         </div>
       </div>
     </div>
