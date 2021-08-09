@@ -7,3 +7,18 @@
     font-family: Verdana;
     height: 22px;
 }
+.icon-brazil {
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    background-color: #003399;
+    margin-top: -30px;
+}
+.mercosul {
+    display: flex;
+    background-color: #003399;
+}
+.mercosul img{
+    margin-top: -25px;
+    height: 30px;
+}

@@ -24,7 +24,7 @@
 }
 .rectangle {
     border: 3px solid #111;
-    width: 99%;
+    width: 99.4%;
     height: 30vh;
     margin-top: 4rem;
     border-radius: 10px;
@@ -41,7 +41,6 @@
     width: 5%;
     background-color: #fff;
     height: 60px;
-    margin: 5px;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
