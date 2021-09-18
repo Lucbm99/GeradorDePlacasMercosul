@@ -45,7 +45,12 @@
     font-size: 2rem;
     text-transform: uppercase;
 }
-
+.observation {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
 @media (min-width: 320px) and (max-width: 480px) {
     .instructions {
         font-size: 1.2rem;

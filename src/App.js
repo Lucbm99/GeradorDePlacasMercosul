@@ -51,6 +51,9 @@ function App() {
           <input type="text" id="value-7" readOnly /> 
         </div>
       </div>
+      <p class="observation">Nota: as placas geradas aqui são geradas aleatoriamente, para fins de estudos.<br/>
+      A má condução/utilização dos dados gerados aqui é de total responsabilidade do usuário.
+      </p>
     </div>
   );
 }
